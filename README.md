@@ -23,6 +23,14 @@ to fit the 4,096-byte cap; the header comment of `main.py` says how to
 unpack it. `LICENSE` is MIT, `README.md` is this file; the whole snapshot
 is under the 8,192-byte cap and no file exceeds 4,096 bytes.
 
+## Practice results
+
+Local practice trials with the kit's env and official scorer:
+
+- trial-0: Elo 1,191 — 2 wins, 1 draw, 3 losses (932 s). Wins against
+  depth-2 and depth-3, a draw against depth-4.
+- trial-1: Elo 876 — 0 wins, 2 draws, 4 losses (942 s).
+
 ## Grade locally
 
 From the competition kit directory, with the entry repository at
